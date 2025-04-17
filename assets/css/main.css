@@ -2688,3 +2688,55 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+
+.gallery-card, .image-gallery-card{
+  width:27rem;
+  height:auto;
+  display:flex;
+  flex-direction: column;
+  border-radius:1rem;
+  border:none;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+  cursor:pointer;
+}
+
+
+
+.gallery-card-image{
+  width:27rem;
+  height:23rem;
+  object-fit:inherit;
+  object-position: center; 
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin:auto;
+}
+
+.gallery-card-image-main{
+  width:27rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.gallery-card img{
+  object-fit: fill;
+  object-position: center;
+}
+
+.gallery-card-description{
+  padding:1.4rem;
+  text-align:center;
+  font-weight: 800;
+}
+
+.image-gallery-card{
+  width:100%;
+}
+
+.image-gallery-card .gallery-card-image{
+  border-bottom-left-radius:1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+
+ 
